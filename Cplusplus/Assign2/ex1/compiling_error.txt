@@ -1,0 +1,17 @@
+In file included from C:\Users\joni7\OneDrive - University of Essex\CSEE YEAR 2\CE221 CPLusPlus Programming\assign2\Md Abu Joni-1606072 Assignment-2\ex1\main.cpp:8:0:
+C:\Users\joni7\OneDrive - University of Essex\CSEE YEAR 2\CE221 CPLusPlus Programming\assign2\Md Abu Joni-1606072 Assignment-2\ex1\Student.h:37:47: warning: dynamic exception specifications are deprecated in C++11 [-Wdeprecated]
+     float getMark(const string &module) const throw (NoMarkException);
+                                               ^~~~~
+/cygdrive/c/Users/joni7/AppData/Local/Temp/ccDhHkUl.o:main.cpp:(.text+0x2e2): undefined reference to `Student::Student(std::string const&, std::string const&, int)'
+/cygdrive/c/Users/joni7/AppData/Local/Temp/ccDhHkUl.o:main.cpp:(.text+0x2e2): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `Student::Student(std::string const&, std::string const&, int)'
+/cygdrive/c/Users/joni7/AppData/Local/Temp/ccDhHkUl.o:main.cpp:(.text+0x57a): undefined reference to `Student::getRegNo() const'
+/cygdrive/c/Users/joni7/AppData/Local/Temp/ccDhHkUl.o:main.cpp:(.text+0x57a): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `Student::getRegNo() const'
+/cygdrive/c/Users/joni7/AppData/Local/Temp/ccDhHkUl.o:main.cpp:(.text+0x6db): undefined reference to `Student::addMark(std::string const&, float)'
+/cygdrive/c/Users/joni7/AppData/Local/Temp/ccDhHkUl.o:main.cpp:(.text+0x6db): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `Student::addMark(std::string const&, float)'
+/cygdrive/c/Users/joni7/AppData/Local/Temp/ccDhHkUl.o:main.cpp:(.text+0xfed): undefined reference to `Student::getCopy()'
+/cygdrive/c/Users/joni7/AppData/Local/Temp/ccDhHkUl.o:main.cpp:(.text+0xfed): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `Student::getCopy()'
+/cygdrive/c/Users/joni7/AppData/Local/Temp/ccDhHkUl.o:main.cpp:(.text+0x127c): undefined reference to `operator<<(std::ostream&, Student const&)'
+/cygdrive/c/Users/joni7/AppData/Local/Temp/ccDhHkUl.o:main.cpp:(.text+0x127c): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `operator<<(std::ostream&, Student const&)'
+/cygdrive/c/Users/joni7/AppData/Local/Temp/ccDhHkUl.o:main.cpp:(.text+0x1473): undefined reference to `Student::getCopy()'
+/cygdrive/c/Users/joni7/AppData/Local/Temp/ccDhHkUl.o:main.cpp:(.text+0x1473): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `Student::getCopy()'
+collect2: error: ld returned 1 exit status
