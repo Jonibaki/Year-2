@@ -1,0 +1,30 @@
+Queue contents: <>
+________Calling left/right data________
+WARNING: Empty Queue
+WARNING: Empty Queue
+________Removing to left/right________
+WARNING: Empty Queue
+WARNING: Empty Queue
+________Adding to left/right________
+Adding 3 to left
+Queue contents: <3,>
+Adding 5 to right
+Queue Contents: <3,5,>
+Adding 10 to left
+Queue contents: <10,3,5,>
+Adding 7 to right
+Queue Contents: <10,3,5,7,>
+Adding 16 to left
+Queue contents: <16,10,3,5,7,>
+________Calling left/right data________
+Calling right: 7 returned
+Calling left: 16 returned
+________Removing from left/right________
+Queue Contents: <16,10,3,5,7,>
+Removing left: <10,3,5,7,> returned
+Removing right: <10,3,5,> returned
+Removing right: <10,3,> returned
+Removing left: <3,> returned
+Removing left: <> returned
+WARNING: Empty Queue
+____END OF PROGRAM____
